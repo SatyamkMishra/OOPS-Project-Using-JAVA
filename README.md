@@ -35,4 +35,25 @@ This Java project simulates an ATM machine with basic functionalities like check
 
 ---
 
+
+**Employee Payroll System**
+This Java project implements a simple Employee Payroll System using object-oriented principles and inheritance. It includes:
+
+**Employee Class Hierarchy:** Abstract base class Employee with concrete subclasses FulltimeEmployee and PartTimeEmployee.
+**Salary Calculation:** Each subclass implements calculateSalary() method based on different pay structures.
+**PayRollSystem Class:** Manages a list of employees, allowing addition, removal, and display of employee details.
+**Main Application:** Demonstrates functionality by adding employees, performing operations, and displaying results.
+
+**Key Classes**
+**Employee:** Abstract class defining basic attributes and abstract salary calculation method.
+**FulltimeEmployee:** Inherits from Employee, calculates salary based on monthly salary.
+**PartTimeEmployee:** Inherits from Employee, calculates salary based on hours worked and hourly rate.
+**PayRollSystem:** Manages a collection of employees and provides methods to manipulate and display employee data.
+
+**Usage**
+The Employee_Payroll_System class in main method initializes a PayRollSystem instance, adds sample employees (one full-time and one part-time), performs employee removal by ID, and displays current employee details.
+
+**How to Run**
+Compile and run Employee_Payroll_System.java using a Java compiler (javac) and interpreter (java). Ensure all classes are in the same directory or properly configured in the classpath.
+
 Feel free to expand on this description based on any additional features or customization you've implemented in your project.
